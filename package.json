@@ -1,13 +1,22 @@
 {
+  "private": true,
+  "name": "naldo-site-vp",
+  "version": "0.0.1",
+  "description": "Naldo's website using vitepress",
+  "author": {
+    "name": "uestcNaldo",
+    "email": "naldo_wang9641@qq.com"
+  },
+  "license": "MIT",
   "type": "module",
   "devDependencies": {
-    "vitepress": "1.0.0-rc.4",
+    "vitepress": "1.0.0-rc.8",
     "vue": "^3.3.4"
   },
   "scripts": {
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "site:dev": "vitepress dev --force",
+    "site:build": "vitepress build",
+    "site:preview": "vitepress preview"
   },
   "pnpm": {
     "peerDependencyRules": {
