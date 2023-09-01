@@ -1,6 +1,6 @@
 # 静态站点开发(VitePress)
 
-使用 **[VitePress](https://vitepress.dev/)** 搭建的站点
+使用 **[VitePress](https://vitepress.dev "VitePress官方文档")** 搭建的站点 👻
 
 ## 使用站点
 

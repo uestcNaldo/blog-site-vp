@@ -2,24 +2,25 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+title: 首页
+
 hero:
-  name: "VitePress Site"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "Naldo Blog"
+  text: ""
+  tagline: "开发学习记录站点"
+  image:
+    src: /logo.svg
+    alt: "logo"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 开始阅读
+      link: /introduction
     - theme: alt
-      text: API Examples
+      text: 关于
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Using VitePress
+    details: VitePress生成的静态站点
 ---
 
