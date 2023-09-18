@@ -21,7 +21,7 @@ export default defineConfig({
 
     nav: [
       { text: '首页', link: '/' },
-      { text: '博客', link: '/markdown-examples' }
+      { text: '博客', link: '/introduction' }
     ],
 
     sidebar: [
