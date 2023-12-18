@@ -15,6 +15,10 @@ export default defineConfig({
   markdown: {
     lineNumbers: true
   },
+
+  vite: {
+  },
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.svg',
@@ -44,9 +48,10 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/uestcNaldo/blog-site-vp' }
     ],
 
-    // search: {
-    //   provider: 'local'
-    // }
+    search: {
+      provider: 'local'
+    },
+
     footer: {
       message: 'Released under the <a href="https://github.com/uestcNaldo/blog-site-vp/blob/main/LICENSE" target="_blank" rel="noreferrer">MIT License</a>.',
       copyright: 'Copyright ©️ 2023-present <a href="https://github.com/uestcNaldo/blog-site-vp" target="_blank" rel="noreferrer">uestcNaldo</a>'
